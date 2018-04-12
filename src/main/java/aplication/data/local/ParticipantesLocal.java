@@ -21,6 +21,7 @@ public class ParticipantesLocal implements Local {
     @Override
     public void agregarparticipante(ParticitanteEntity participante) {
         participantes.put(participante.getRut(), participante);
+
     }
 
     @Override
